@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Convivencia.Controllers
 {
-    public class ConviController:Controller
+    public class HomeController:Controller
     {
        public IActionResult Index(){
          return View();  
