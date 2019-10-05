@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.EntityFrameworkCore;
+using Convivencia.Models;
 
 namespace Convivencia
 {
@@ -16,18 +18,27 @@ namespace Convivencia
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+            services.AddDbContext<DatabaseContext>(options=>options.UseNpgsql(
+                "Host=ec2-174-129-227-51.compute-1.amazonaws.com; Database=d50bh3sirgjb5u; Username=pzpmthggriiooz; Password=083a7c4ac582eb777120efb340291a5e9fd38ca8a5ff52aecc2c5eb112e5c800; Port=5432; SSL mode=Require; Trust Server Certificate=true;"
+            ));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
+            app.UseStaticFiles();
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseMvcWithDefaultRoute();
-            app.UseStaticFiles();
+            /*app.Run(async (context) =>
+            {
+                await context.Response.WriteAsync("Hello World!");
+            });*/
+            app.UseMvc(routes=>{
+                routes.MapRoute(name: "default", template: "{controller=Home}/{action=Index}/{id?}");
+            });
         }
     }
 }

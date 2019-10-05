@@ -23,3 +23,37 @@ C:\Users\Clase\Desktop\ConvivenciaUSMP\Convivencia\obj\Debug\netcoreapp2.1\Convi
 C:\Users\Clase\Desktop\ConvivenciaUSMP\Convivencia\obj\Debug\netcoreapp2.1\Convivencia.csproj.CopyComplete
 C:\Users\Clase\Desktop\ConvivenciaUSMP\Convivencia\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
 C:\Users\Clase\Desktop\ConvivenciaUSMP\Convivencia\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\AKITA\Documents\Visual Studio Code\Repositorios\Convivencia\bin\Debug\netcoreapp2.1\Convivencia.deps.json
+C:\Users\AKITA\Documents\Visual Studio Code\Repositorios\Convivencia\bin\Debug\netcoreapp2.1\Convivencia.runtimeconfig.json
+C:\Users\AKITA\Documents\Visual Studio Code\Repositorios\Convivencia\bin\Debug\netcoreapp2.1\Convivencia.runtimeconfig.dev.json
+C:\Users\AKITA\Documents\Visual Studio Code\Repositorios\Convivencia\bin\Debug\netcoreapp2.1\Convivencia.dll
+C:\Users\AKITA\Documents\Visual Studio Code\Repositorios\Convivencia\bin\Debug\netcoreapp2.1\Convivencia.pdb
+C:\Users\AKITA\Documents\Visual Studio Code\Repositorios\Convivencia\bin\Debug\netcoreapp2.1\Convivencia.Views.dll
+C:\Users\AKITA\Documents\Visual Studio Code\Repositorios\Convivencia\bin\Debug\netcoreapp2.1\Convivencia.Views.pdb
+C:\Users\AKITA\Documents\Visual Studio Code\Repositorios\Convivencia\obj\Debug\netcoreapp2.1\Convivencia.csprojAssemblyReference.cache
+C:\Users\AKITA\Documents\Visual Studio Code\Repositorios\Convivencia\obj\Debug\netcoreapp2.1\Convivencia.csproj.CoreCompileInputs.cache
+C:\Users\AKITA\Documents\Visual Studio Code\Repositorios\Convivencia\obj\Debug\netcoreapp2.1\Convivencia.RazorAssemblyInfo.cache
+C:\Users\AKITA\Documents\Visual Studio Code\Repositorios\Convivencia\obj\Debug\netcoreapp2.1\Convivencia.RazorAssemblyInfo.cs
+C:\Users\AKITA\Documents\Visual Studio Code\Repositorios\Convivencia\obj\Debug\netcoreapp2.1\Convivencia.AssemblyInfoInputs.cache
+C:\Users\AKITA\Documents\Visual Studio Code\Repositorios\Convivencia\obj\Debug\netcoreapp2.1\Convivencia.AssemblyInfo.cs
+C:\Users\AKITA\Documents\Visual Studio Code\Repositorios\Convivencia\obj\Debug\netcoreapp2.1\Convivencia.TagHelpers.input.cache
+C:\Users\AKITA\Documents\Visual Studio Code\Repositorios\Convivencia\obj\Debug\netcoreapp2.1\Convivencia.TagHelpers.output.cache
+C:\Users\AKITA\Documents\Visual Studio Code\Repositorios\Convivencia\obj\Debug\netcoreapp2.1\Convivencia.RazorCoreGenerate.cache
+C:\Users\AKITA\Documents\Visual Studio Code\Repositorios\Convivencia\obj\Debug\netcoreapp2.1\Razor\Views\Home\Ayuda.g.cshtml.cs
+C:\Users\AKITA\Documents\Visual Studio Code\Repositorios\Convivencia\obj\Debug\netcoreapp2.1\Razor\Views\Home\Biblioteca.g.cshtml.cs
+C:\Users\AKITA\Documents\Visual Studio Code\Repositorios\Convivencia\obj\Debug\netcoreapp2.1\Razor\Views\Home\EstudianteRegistrado.g.cshtml.cs
+C:\Users\AKITA\Documents\Visual Studio Code\Repositorios\Convivencia\obj\Debug\netcoreapp2.1\Razor\Views\Home\Examenes.g.cshtml.cs
+C:\Users\AKITA\Documents\Visual Studio Code\Repositorios\Convivencia\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\AKITA\Documents\Visual Studio Code\Repositorios\Convivencia\obj\Debug\netcoreapp2.1\Razor\Views\Home\ListarEstudiantes.g.cshtml.cs
+C:\Users\AKITA\Documents\Visual Studio Code\Repositorios\Convivencia\obj\Debug\netcoreapp2.1\Razor\Views\Home\MostrarEstudiante.g.cshtml.cs
+C:\Users\AKITA\Documents\Visual Studio Code\Repositorios\Convivencia\obj\Debug\netcoreapp2.1\Razor\Views\Home\Problemas.g.cshtml.cs
+C:\Users\AKITA\Documents\Visual Studio Code\Repositorios\Convivencia\obj\Debug\netcoreapp2.1\Razor\Views\Home\RegistrarEstudiante.g.cshtml.cs
+C:\Users\AKITA\Documents\Visual Studio Code\Repositorios\Convivencia\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ViewLayout.g.cshtml.cs
+C:\Users\AKITA\Documents\Visual Studio Code\Repositorios\Convivencia\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\AKITA\Documents\Visual Studio Code\Repositorios\Convivencia\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\AKITA\Documents\Visual Studio Code\Repositorios\Convivencia\obj\Debug\netcoreapp2.1\Convivencia.RazorTargetAssemblyInfo.cache
+C:\Users\AKITA\Documents\Visual Studio Code\Repositorios\Convivencia\obj\Debug\netcoreapp2.1\Convivencia.RazorTargetAssemblyInfo.cs
+C:\Users\AKITA\Documents\Visual Studio Code\Repositorios\Convivencia\obj\Debug\netcoreapp2.1\Convivencia.Views.pdb
+C:\Users\AKITA\Documents\Visual Studio Code\Repositorios\Convivencia\obj\Debug\netcoreapp2.1\Convivencia.dll
+C:\Users\AKITA\Documents\Visual Studio Code\Repositorios\Convivencia\obj\Debug\netcoreapp2.1\Convivencia.pdb
+C:\Users\AKITA\Documents\Visual Studio Code\Repositorios\Convivencia\obj\Debug\netcoreapp2.1\Convivencia.csproj.CopyComplete
