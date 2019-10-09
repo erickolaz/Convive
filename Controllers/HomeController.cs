@@ -7,6 +7,22 @@ namespace Convivencia.Controllers
        public IActionResult Index(){
          return View();  
        } 
+         public IActionResult Exam(){
+         return View();  
+       } 
+         public IActionResult Problemas(){
+         return View();  
+       } 
+         public IActionResult Ayuda(){
+         return View();  
+       } 
+         public IActionResult Biblioteca(){
+         return View();  
+       } 
+
+       public IActionResult Registrar(){
+         return View();  
+       } 
         
     }
 }

@@ -1,0 +1,223 @@
+ <!--
+ <header class="w3-container w3-light-grey w3-center" style="padding:45px 16px">
+  <h1 class="w3-margin w3-jumbo">Banco de Examenes pasados</h1>
+  
+</header>
+  <section>
+    <div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="dropdown row">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Elegir carrera
+  </button>
+  <div class="w3-container" id="escuela">
+  <div class="dropdown-menu col-md-4" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="javascript:void(0)"class="w3-col s3 escu1" onclick="openEscuela(event, 'Arquitectura'); " id="myLink">Arquitectura</a>
+    <a class="dropdown-item" href="javascript:void(0)"class="w3-col s3 escu1"  onclick="openEscuela(event, 'Aeronautica');">Ciencias Aeronauticas</a>
+    <a class="dropdown-item" href="javascript:void(0)"class="w3-col s3 escu1"  onclick="openEscuela(event, 'Sistemas');">Ingeniería de computación y Sistemas</a>
+    <a class="dropdown-item" href="javascript:void(0)"class="w3-col s3 escu1"  onclick="openEscuela(event, 'Industrial');">Ingeniería Industrial</a>
+    <a class="dropdown-item" href="javascript:void(0)"class="w3-col s3 escu1"  onclick="openEscuela(event, 'Civil');">Ingeniería Civil</a>
+    </div> 
+    
+    <div class="col-md-6">
+      <div id="Sistemas" class="w3-container escuela ">
+        <div class="container">
+    <div class="row">
+        <div class="dropdown btn-group">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Cursos Generales
+            </button>
+            <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+               <li class="dropdown-item"><a href="">Algebra Lineal</a></li>
+              <li class="dropdown-item"><a href="">Calculo I</a></li>
+              <li class="dropdown-item"><a href="">Estadística y probabilidad I</a></li>
+              <li class="dropdown-item"><a href="">Estadística y probabilidad II</a></li>
+              <li class="dropdown-item"><a href="">Filosofía</a></li>
+              <li class="dropdown-item"><a href="">Física I</a></li>
+              <li class="dropdown-item"><a href="">Física II</a></li>
+              <li class="dropdown-item"><a href="">Geometría analítica</a></li>
+              <li class="dropdown-item"><a href="">Ingles I</a></li>
+              <li class="dropdown-item"><a href="">Ingles II</a></li>
+              <li class="dropdown-item"><a href="">Introducción a la economía</a></li>
+              <li class="dropdown-item"><a href="">Lenguaje</a></li>
+              <li class="dropdown-item"><a href="">Matemática discreta</a></li>
+              <li class="dropdown-item"><a href="">Metodo de estudio</a></li>
+              <li class="dropdown-item"><a href="">Microeconomía</a></li>
+              <li class="dropdown-item"><a href="">Realidad Nacional</a></li> 
+              </ul>
+              <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Cursos de carrera
+            </button>
+            <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+          
+                <li class="dropdown-submenu">
+                  <a  class="dropdown-item" tabindex="-1" href="#">Introducción a la ingeniería</a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-item"><a href="#">Teoría</a></li>
+                    <li class="dropdown-item"><a href="#">Laboratorio</a></li>
+                  </ul>
+                </li>
+                 <li class="dropdown-submenu">
+                  <a  class="dropdown-item" tabindex="-1" href="#">Fundamentos de diseño Web</a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-item"><a href="#">Teoría</a></li>
+                    <li class="dropdown-item"><a href="#">Laboratorio</a></li>
+                  </ul>
+                </li>
+                 <li class="dropdown-submenu">
+                  <a  class="dropdown-item" tabindex="-1" href="#">Introducción a la programación</a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-item"><a href="#">Teoría</a></li>
+                    <li class="dropdown-item"><a href="#">Laboratorio</a></li>
+                  </ul>
+                </li>
+                 <li class="dropdown-submenu">
+                  <a  class="dropdown-item" tabindex="-1" href="#">Algoritmo y estructura de datos I</a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-item"><a href="#">Teoría</a></li>
+                    <li class="dropdown-item"><a href="#">Laboratorio</a></li>
+                  </ul>
+                </li>
+                 <li class="dropdown-submenu">
+                  <a  class="dropdown-item" tabindex="-1" href="#">Tecnología de información I</a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-item"><a href="#">Teoría</a></li>
+                    <li class="dropdown-item"><a href="#">Laboratorio</a></li>
+                  </ul>
+                </li>
+                 <li class="dropdown-submenu">
+                  <a  class="dropdown-item" tabindex="-1" href="#">Sistemas de información</a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-item"><a href="#">Teoría</a></li>
+                    <li class="dropdown-item"><a href="#">Laboratorio</a></li>
+                  </ul>
+                </li>
+                 <li class="dropdown-submenu">
+                  <a  class="dropdown-item" tabindex="-1" href="#">Algoritmo y estructura de datos II</a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-item"><a href="#">Teoría</a></li>
+                    <li class="dropdown-item"><a href="#">Laboratorio</a></li>
+                  </ul>
+                </li>
+                 <li class="dropdown-submenu">
+                  <a  class="dropdown-item" tabindex="-1" href="#">Tecnología de información II</a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-item"><a href="#">Teoría</a></li>
+                    <li class="dropdown-item"><a href="#">Laboratorio</a></li>
+                  </ul>
+                </li>
+                 <li class="dropdown-submenu">
+                  <a  class="dropdown-item" tabindex="-1" href="#">Teoría y diseño de base de datos</a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-item"><a href="#">Teoría</a></li>
+                    <li class="dropdown-item"><a href="#">Laboratorio</a></li>
+                  </ul>
+                </li>
+                 <li class="dropdown-submenu">
+                  <a  class="dropdown-item" tabindex="-1" href="#">Gestión de procesos</a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-item"><a href="#">Teoría</a></li>
+                    <li class="dropdown-item"><a href="#">Laboratorio</a></li>
+                  </ul>
+                </li>
+                 <li class="dropdown-submenu">
+                  <a  class="dropdown-item" tabindex="-1" href="#">Servidores y sistemas operativos</a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-item"><a href="#">Teoría</a></li>
+                    <li class="dropdown-item"><a href="#">Laboratorio</a></li>
+                  </ul>
+                </li>
+                 <li class="dropdown-submenu">
+                  <a  class="dropdown-item" tabindex="-1" href="#">Ingeniería de Software I</a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-item"><a href="#">Teoría</a></li>
+                    <li class="dropdown-item"><a href="#">Laboratorio</a></li>
+                  </ul>
+                </li>
+                 <li class="dropdown-submenu">
+                  <a  class="dropdown-item" tabindex="-1" href="#">Programación I</a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-item"><a href="#">Teoría</a></li>
+                    <li class="dropdown-item"><a href="#">Laboratorio</a></li>
+                  </ul>
+                </li>
+                 <li class="dropdown-submenu">
+                  <a  class="dropdown-item" tabindex="-1" href="#">Teoría general de Sistemas</a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-item"><a href="#">Teoría</a></li>
+                    <li class="dropdown-item"><a href="#">Laboratorio</a></li>
+                  </ul>
+                </li>
+                 <li class="dropdown-submenu">
+                  <a  class="dropdown-item" tabindex="-1" href="#">Ingeniería de sofware II</a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-item"><a href="#">Teoría</a></li>
+                    <li class="dropdown-item"><a href="#">Laboratorio</a></li>
+                  </ul>
+                </li>
+                 <li class="dropdown-submenu">
+                  <a  class="dropdown-item" tabindex="-1" href="#">Inteligencia artficial y robótica</a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-item"><a href="#">Teoría</a></li>
+                    <li class="dropdown-item"><a href="#">Laboratorio</a></li>
+                  </ul>
+                </li>
+                 <li class="dropdown-submenu">
+                  <a  class="dropdown-item" tabindex="-1" href="#"></a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-item"><a href="#">Teoría</a></li>
+                    <li class="dropdown-item"><a href="#">Laboratorio</a></li>
+                  </ul>
+                </li>
+
+              </ul>
+        </div>
+         <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown
+            </button>
+            <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+          
+                <li class="dropdown-submenu">
+                  <a  class="dropdown-item" tabindex="-1" href="#">Redes y Conectividad I</a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-item"><a href="#">Teoría</a></li>
+                    <li class="dropdown-item"><a href="#">Laboratorio</a></li>
+                  </ul>
+                </li>
+              </ul>
+        </div>
+ 
+        
+
+        </div>
+    </div>
+</div>
+            </div>
+  </div>
+  <div id="Arquitectura" class="w3-container escuela ">
+    vegeta
+  </div>
+  <div id="Aeronautica" class="w3-container escuela ">
+    linux
+  </div>
+    </div>
+    
+    </div>  
+  </div>
+</div>
+  </section>
+     -->
+ 
+ 
+ <header class="w3-container w3-light-grey w3-center" style="padding:45px 16px">
+  <h1 class="w3-margin w3-jumbo">Banco de Examenes pasados</h1>
+ 
+ <section>
+    <div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="dropdown row">
+        
+
+
+      </div>
+      </div>

@@ -1,18 +1,14 @@
 @model Estudiante
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Registrar Estudiante - Convivencia</title>
-    <link rel="stylesheet" type="text/css" href="css/Estilos.css">
-</head>
 <body>
-    <h1 style="color: lightblue; margin-top: 40px;">Registrar Estudiante</h1><br/>
+    <h1 style="color: lightblue;s margin-top: 40px;">Registrar Estudiante</h1><br/>
     <form asp-controller="Home" asp-action="EstudianteRegistrado">
         <label><b>Nombre</b></label>
         <input asp-for="Name" class="form-control" required/><br/>
+        <label><b>Apellidos</b></label>
+        <input asp-for="Apell" class="form-control" required/><br/>
+        <label><b>Ciclo</b></label>
+        <input asp-for="Cic" class="form-control" required/><br/>
+        
         <label><b>Birth: </b></label>
         <input asp-for="Birth" value="YYYY-MM-DD" class="form-control"/><br/>
         <label><b>Hobbie</b></label>
@@ -27,8 +23,11 @@
             <option value="Lenguaje_5">Lenguaje 5</option>
             <option value="Fisica_6">Fisica 6</option>
         </select><br/>
+        <div>
+            <label><b></b></label>
+        <input asp-for="Name" class="form-control" required/><br/>
+        </div>
         <input type="submit" class="btn btn-info" value="Registrar" style="margin: auto; display: block; margin-bottom: 40px;"/>
         <input type="submit" class="btn btn-info" value="Volver" style="margin: auto; display: block; margin-bottom: 40px;" onclick="window.history.back();"/>
     </form>
 </body>
-</html>

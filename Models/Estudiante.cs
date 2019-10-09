@@ -6,6 +6,9 @@ namespace Convivencia.Models{
         public int ID{get;set;}
         [Display(Name="Nombre")]
         public String Name{get;set;}
+
+         public String Apell{get;set;}
+          public String Cic{get;set;}
         [DataType(DataType.Date)]
         public DateTime Birth{get; set;}
         public int Edad{get;set;}
