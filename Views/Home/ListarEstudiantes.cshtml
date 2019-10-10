@@ -16,13 +16,19 @@
             <thead>
                 <tr>
                     <th>
+                        @Html.DisplayNameFor(model=>model.ID)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model=>model.Apep)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model=>model.Apem)
+                    </th>
+                     <th>
                         @Html.DisplayNameFor(model=>model.Name)
                     </th>
-                    <th>
-                        @Html.DisplayNameFor(model=>model.Curso)
-                    </th>
-                    <th>
-                        @Html.DisplayNameFor(model=>model.Creditos)
+                     <th>
+                        @Html.DisplayNameFor(model=>model.Edad)
                     </th>
                     <th>
                         Ver
@@ -37,10 +43,10 @@
                             @Html.DisplayFor(modelItem=>item.Name)
                         </td>
                         <td>
-                            @Html.DisplayFor(modelItem=>item.Curso)
+                            @Html.DisplayFor(modelItem=>item.Carr)
                         </td>
                         <td>
-                            @Html.DisplayFor(modelItem=>item.Creditos)
+                            @Html.DisplayFor(modelItem=>item.Cic)
                         </td>
                         <td>
                             [<a asp-action="MostrarEstudiante" asp-route-id="@item.ID" style="color: red;">Detalles</a>]

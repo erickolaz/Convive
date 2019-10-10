@@ -10,14 +10,20 @@
 </head>
 <body>
     <h1 style="color: lightblue; margin-top: 40px;">Registrar Estudiante > Registro</h1><br/>
-    <label><b>Nombre</b></label>
+     <label><b>DNI o Codigo de estudiante</b></label>
+    <div class="form-group">@Html.DisplayTextFor(model=>model.ID)</div><br/>
+    <label><b>Apelido Paterno:</b></label>
+    <div class="form-group">@Html.DisplayTextFor(model=>model.Apep)</div><br/>
+     <label><b>Apellido Materno:</b></label>
+    <div class="form-group">@Html.DisplayTextFor(model=>model.Apem)</div><br/>
+     <label><b>Nombres</b></label>
     <div class="form-group">@Html.DisplayTextFor(model=>model.Name)</div><br/>
-    <label><b>Curso</b></label>
-    <div class="form-group">@Html.DisplayTextFor(model=>model.Curso)</div><br/>
-    <label><b>Créditos</b></label>
-    <div class="form-group">@Html.DisplayTextFor(model=>model.Creditos)</div><br/>
-    <label><b>Total</b></label>
-    <div class="form-group">@Html.DisplayTextFor(model=>model.Costo)</div><br/><br/>
+    <label><b>Fecha de nacimiento</b></label>
+    <div class="form-group">@Html.DisplayTextFor(model=>model.Birth)</div><br/>
+    <label><b>Carrera</b></label>
+    <div class="form-group">@Html.DisplayTextFor(model=>model.Carr)</div><br/>
+    <label><b>Ciclo</b></label>
+    <div class="form-group">@Html.DisplayTextFor(model=>model.Cic)</div><br/><br/>
     <input type="submit" class="btn btn-info" value="Volver" style="margin: auto; display: block; margin-bottom: 40px;" onclick="window.history.back();"/>
 </body>
 </html>
