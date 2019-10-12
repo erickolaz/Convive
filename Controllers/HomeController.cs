@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using Convive.models;
 
 namespace Convivencia.Controllers
 {
@@ -24,5 +25,17 @@ namespace Convivencia.Controllers
          return View();  
        } 
         
+
+
+      [HttpPost]
+     public IActionResult Registrar (Estudiante es){
+
+       int age;
+       age=DateTime.Now.Year - follow.Birth.Year;
+       es.edad=age;
+         _context.Add(es);
+            _context.SaveChanges();
+       return View(es);
+     }
     }
 }
