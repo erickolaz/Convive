@@ -1,4 +1,5 @@
-@model Estudiante
+
+@model IEnumerable<Estudiante>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -9,21 +10,77 @@
     <link rel="stylesheet" type="text/css" href="css/Estilos.css">
 </head>
 <body>
-    <h1 style="color: lightblue; margin-top: 40px;">Registrar Estudiante > Registro</h1><br/>
-     <label><b>DNI o Codigo de estudiante</b></label>
-    <div class="form-group">@Html.DisplayTextFor(model=>model.ID)</div><br/>
-    <label><b>Apelido Paterno:</b></label>
-    <div class="form-group">@Html.DisplayTextFor(model=>model.Apep)</div><br/>
-     <label><b>Apellido Materno:</b></label>
-    <div class="form-group">@Html.DisplayTextFor(model=>model.Apem)</div><br/>
-     <label><b>Nombres</b></label>
-    <div class="form-group">@Html.DisplayTextFor(model=>model.Name)</div><br/>
-    <label><b>Fecha de nacimiento</b></label>
-    <div class="form-group">@Html.DisplayTextFor(model=>model.Birth)</div><br/>
-    <label><b>Carrera</b></label>
-    <div class="form-group">@Html.DisplayTextFor(model=>model.Carr)</div><br/>
-    <label><b>Ciclo</b></label>
-    <div class="form-group">@Html.DisplayTextFor(model=>model.Cic)</div><br/><br/>
+
+<table>
+<tr>
+    <th>
+       <label><b>DNI o Codigo de estudiante</b></label> 
+    </th>
+    <th>
+        <label><b>Apelido Paterno:</b></label>
+    </th>
+    <th>
+        <label><b>Apellido Materno:</b></label>
+    </th>
+    <th>
+ <label><b>Nombres</b></label>
+    </th>
+    <th>
+ <label><b>Fecha de nacimiento</b></label>
+    </th>
+    <th>
+         <label><b>Edad</b></label>
+    </th>
+    <th>
+         <label><b>Carrera</b></label>
+    </th>
+    <th>
+          <label><b>Ciclo</b></label>
+    </th>
+    
+</tr>
+ <tr>
+                    <th>
+                        @Html.DisplayNameFor(model=>model.ID)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model=>model.Apep)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model=>model.Apem)
+                    </th>
+                     <th>
+                        @Html.DisplayNameFor(model=>model.Name)
+                    </th>
+                     <th>
+                        @Html.DisplayNameFor(model=>model.Edad)
+                    </th>
+                    <th>
+                        Ver
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model){
+                        <!-- <tr style="background: white; color: gray;"> -->
+                        <tr style="background: gray; color: white;">
+                        <td>
+                            @Html.DisplayFor(modelItem=>item.Name)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem=>item.Carr)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem=>item.Cic)
+                        </td>
+                        <td>
+                            [<a asp-action="MostrarEstudiante" asp-route-id="@item.ID" style="color: red;">Detalles</a>]
+                        </td>
+                    </tr>
+                }
+            </tbody>
+</table>
+
     <input type="submit" class="btn btn-info" value="Volver" style="margin: auto; display: block; margin-bottom: 40px;" onclick="window.history.back();"/>
 </body>
 </html>

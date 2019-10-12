@@ -49,7 +49,7 @@ using Convivencia.Models;
             WriteLiteral("<!DOCTYPE html>\r\n<html lang=\"es\">\r\n");
             EndContext();
             BeginContext(54, 300, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "43697de4b84f4ee88d32a9d741e056f8", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b8ad97dcf821449b857b8a2d8d1d52f3", async() => {
                 BeginContext(60, 287, true);
                 WriteLiteral(@"
     <meta charset=""UTF-8"">
@@ -75,7 +75,7 @@ using Convivencia.Models;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(356, 1160, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e54f0fcbab784251a64996552dacbaf3", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c4acad52afb540d79c2d80fb1cc12a23", async() => {
                 BeginContext(362, 124, true);
                 WriteLiteral("\r\n    <h1 style=\"color: lightblue; margin-top: 40px;\">Lista de Estudiantes > Detalle de Estudiante</h1><br/>\r\n    <label><b>");
                 EndContext();

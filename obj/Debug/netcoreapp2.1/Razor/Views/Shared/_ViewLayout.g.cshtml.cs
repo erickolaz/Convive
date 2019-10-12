@@ -60,7 +60,7 @@ using Convivencia.Models;
             WriteLiteral("<!DOCTYPE html>\r\n<html lang=\"en\">\r\n");
             EndContext();
             BeginContext(35, 1068, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4242c7832e3a4c6793f544eef17f0e3c", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9311eb1d791d49588f76cd15077c7952", async() => {
                 BeginContext(42, 1054, true);
                 WriteLiteral(@"
 	<meta charset=""UTF-8"">
@@ -120,7 +120,7 @@ using Convivencia.Models;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(1105, 2431, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ead1651d3f8a4ff79f752292a7fccf81", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "bbe34d4f173d49a395663fa19a0af5c2", async() => {
                 BeginContext(1122, 344, true);
                 WriteLiteral(@"
 	<header>
@@ -131,7 +131,7 @@ using Convivencia.Models;
      ");
                 EndContext();
                 BeginContext(1466, 139, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "734df353e54a428da487c545898c3ef4", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b560432f78634b1a8aeaef7c10a0a65d", async() => {
                     BeginContext(1595, 6, true);
                     WriteLiteral("Inicio");
                     EndContext();
@@ -154,7 +154,7 @@ using Convivencia.Models;
                 WriteLiteral("\r\n     ");
                 EndContext();
                 BeginContext(1612, 154, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8b3a0ee2cd45454ea3f25132a3b67b46", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cd4bf4fc7ff94595a3d5b323bdce1f60", async() => {
                     BeginContext(1746, 16, true);
                     WriteLiteral("Examenes pasados");
                     EndContext();
@@ -177,7 +177,7 @@ using Convivencia.Models;
                 WriteLiteral("\r\n    ");
                 EndContext();
                 BeginContext(1772, 152, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1437b3c6e4634b778d9595caf6197f74", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "50cc56e397e1429ba305639dfc7c9061", async() => {
                     BeginContext(1911, 9, true);
                     WriteLiteral("Problemas");
                     EndContext();
@@ -200,7 +200,7 @@ using Convivencia.Models;
                 WriteLiteral("\r\n    ");
                 EndContext();
                 BeginContext(1930, 161, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "51bd62166f494db48b2fb3fabde479ce", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7cbb3ce7a80441569307c139ea894d1d", async() => {
                     BeginContext(2065, 22, true);
                     WriteLiteral("Ayuda al universitario");
                     EndContext();
@@ -223,7 +223,7 @@ using Convivencia.Models;
                 WriteLiteral("\r\n    ");
                 EndContext();
                 BeginContext(2097, 154, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7c0ea70aac18438097e654499b3bb525", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2cd45eabb4994b54bfcb8e6949653514", async() => {
                     BeginContext(2237, 10, true);
                     WriteLiteral("Biblioteca");
                     EndContext();
@@ -246,7 +246,7 @@ using Convivencia.Models;
                 WriteLiteral("\r\n    <a href=\"#\" class=\"w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white\" style=\"text-decoration-line: none;\">Iniciar Sesion</a>\r\n    ");
                 EndContext();
                 BeginContext(2405, 154, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a09edd3fb5474023989dbc2efe7d9add", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7354a5336a054aa19ad4a2d759afdee3", async() => {
                     BeginContext(2544, 11, true);
                     WriteLiteral("Registrarse");
                     EndContext();

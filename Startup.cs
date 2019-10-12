@@ -15,14 +15,14 @@ namespace Convivencia
     {
         // This method gets called by the runtime. Use this method to add services to the container.
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
-        public void ConfigureServices(IServiceCollection services)
+         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
-            services.AddDbContext<DatabaseContext>(options=>options.UseNpgsql(
-                "Host=ec2-174-129-227-51.compute-1.amazonaws.com; Database=d50bh3sirgjb5u; Username=pzpmthggriiooz; Password=083a7c4ac582eb777120efb340291a5e9fd38ca8a5ff52aecc2c5eb112e5c800; Port=5432; SSL mode=Require; Trust Server Certificate=true;"
-            ));
+            /*services.AddDbContext<DatabaseContext>(options=>options.UseNpgsql(
+              "Host=ec2-174-129-227-51.compute-1.amazonaws.com; Database=d50bh3sirgjb5u; Username=pzpmthggriiooz; Password=083a7c4ac582eb777120efb340291a5e9fd38ca8a5ff52aecc2c5eb112e5c800; Port=5432; SSL mode=Require; Trust Server Certificate=true;"
+            )); */
         }
-
+        
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {

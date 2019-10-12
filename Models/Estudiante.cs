@@ -8,6 +8,7 @@ namespace Convivencia.Models{
         public String Apem{get;set;}
         [Display(Name="Nombre")]
         public String Name{get;set;}
+        
         [DataType(DataType.Date)]
         public DateTime Birth{get; set;}
         public int Edad{get;set;}

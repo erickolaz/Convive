@@ -49,7 +49,7 @@ using Convivencia.Models;
             WriteLiteral("<!DOCTYPE html>\r\n<html lang=\"es\">\r\n");
             EndContext();
             BeginContext(35, 286, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3d57e7a282254fc2a5ffec9d30ed672a", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "aac1109f83fa4fd3a70b261d12315e64", async() => {
                 BeginContext(41, 273, true);
                 WriteLiteral(@"
     <meta charset=""UTF-8"">
@@ -75,7 +75,7 @@ using Convivencia.Models;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(323, 67, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d45a8107f5434288bbc2f2415b865e22", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8dd2f2f69f88456c98492e36dec87085", async() => {
                 BeginContext(329, 54, true);
                 WriteLiteral("\r\n    <h1>Aquí va el contenido de nuestra Ayuda</h1>\r\n");
                 EndContext();

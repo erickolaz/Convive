@@ -1,10 +1,20 @@
 using Microsoft.AspNetCore.Mvc;
-using Convive.models;
+using Convivencia.Models;
+using System;
 
 namespace Convivencia.Controllers
 {
     public class HomeController:Controller
     {
+
+
+      
+        //private readonly DatabaseContext _context;
+
+        //public HomeController(DatabaseContext context)
+        //{
+          //  _context = context;
+        //}
        public IActionResult Index(){
          return View();  
        } 
@@ -20,22 +30,27 @@ namespace Convivencia.Controllers
          public IActionResult Biblioteca(){
          return View();  
        } 
+         public IActionResult Registrar(){
+        
+       return View();
+     
+       } 
 
-       public IActionResult Registrar(){
-         return View();  
+              [HttpPost]
+
+        public IActionResult EstudianteRegistrado(Estudiante es){
+
+          int age = DateTime.Now.Year - es.Birth.Year;
+            es.Edad=age;
+         //_context.Add(es);
+           // _context.SaveChanges();
+       return View(es);  
        } 
         
 
 
-      [HttpPost]
-     public IActionResult Registrar (Estudiante es){
 
-       int age;
-       age=DateTime.Now.Year - follow.Birth.Year;
-       es.edad=age;
-         _context.Add(es);
-            _context.SaveChanges();
-       return View(es);
-     }
-    }
+    
+    
+}
 }
