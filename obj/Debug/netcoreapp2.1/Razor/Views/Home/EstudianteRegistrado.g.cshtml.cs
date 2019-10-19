@@ -55,7 +55,7 @@ using Convivencia.Models;
             WriteLiteral("<!DOCTYPE html>\r\n<html lang=\"es\">\r\n");
             EndContext();
             BeginContext(69, 301, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5f768959c21b4d2d92d57eb4d1c15eac", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6160ef1951a94755ae1f2dadf2617645", async() => {
                 BeginContext(75, 288, true);
                 WriteLiteral(@"
     <meta charset=""UTF-8"">
@@ -81,7 +81,7 @@ using Convivencia.Models;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(372, 2306, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2fe5158ae851417696cc5f38300d8ba8", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0a1651d2b4724c57ba5f676879aa78da", async() => {
                 BeginContext(378, 604, true);
                 WriteLiteral(@"
 
@@ -206,7 +206,7 @@ using Convivencia.Models;
                 WriteLiteral("\r\n                        </td>\r\n                        <td>\r\n                            [");
                 EndContext();
                 BeginContext(2311, 90, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b64e0fe6b3634dad969ad07b56e78bdf", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "efbf44552a4e4784ab5fb9ef0692644a", async() => {
                     BeginContext(2389, 8, true);
                     WriteLiteral("Detalles");
                     EndContext();

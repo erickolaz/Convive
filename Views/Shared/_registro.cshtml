@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+	<meta charset="UTF-8">
+	<meta name="Convivencia">
+	<meta name="keywords" content="">
+	<link rel="stylesheet" type="text/css" href="css/fonds.css">
+	<title>Inicio</title>
+	
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <style type="text/css">
+  #fondo{
+  background-color: #FEF4FF;
+}
+
+.opening{
+  font-size: 18px;
+  font-family: Arial Bold;
+  text-align: justify;
+  
+    
+}
+
+#base{
+  background-color: #222121;
+
+}
+
+.titulos{
+  text-align: center;
+  font-family: Bodoni MT;
+
+}
+.escuela{
+  display: none;
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.tablaregistro{
+    position: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+  </style>
+</head>
+<body id="fondo">
+	<header>
+<div class="w3-top">
+  <div class="w3-bar w3-red w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    
+     <a href="~/Home/Index" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-white" style="text-decoration-line: none;">Inicio</a>
+     <a href="~/Home/Exam" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" style="text-decoration-line: none;">Examenes pasados</a>
+    <a href="~/Home/Problemas" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" style="text-decoration-line: none;">Problemas</a>
+    <a href="~/Home/Ayuda" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" style="text-decoration-line: none;">Ayuda al universitario</a>
+    <a href="~/Home/Biblioteca" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" style="text-decoration-line: none;">Biblioteca</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" style="text-decoration-line: none;">Iniciar Sesion</a>
+    <a href="~/Home/Registrar" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" style="text-decoration-line: none;">Registrarse</a>
+  </div>
+
+  
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large col-xl-12">
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 1</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 2</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 3</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 4</a>
+  </div>
+</div>
+		
+		
+
+		
+
+	</header>
+	
+<section>
+    @RenderBody()
+</section>
+	<footer>
+		aji de gallina 
+		<br>
+		<br>
+	</footer>
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+</body>
+</html>

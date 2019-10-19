@@ -1,27 +1,30 @@
+@{
+    Layout="_registro";
+}
 @model Estudiante
 <body>
-    <div>
+    <div class="tablaregistro">
         <h1 style="color: lightblue; margin-top:40px;">Registrar Estudiante</h1>
         <form asp-controller="Home" asp-action="EstudianteRegistrado">
-        <label><b>DNI O codigo de estudiante</b></label>
+        <label><b>DNI O codigo de estudiante:</b></label>
         <input asp-for="ID" class="form-control" required/><br/>
         <label><b>Apellido Paterno:</b></label>
         <input asp-for="Apep" class="form-control" required/><br/>
         <label><b>Apellido Materno:</b></label>
         <input asp-for="Apem" class="form-control" required/><br/>
-        <label><b>Nombres</b></label>
+        <label><b>Nombres: </b></label>
         <input asp-for="Name" class="form-control" required/><br/>
         <label><b>Birth: </b></label>
         <input asp-for="Birth" value="YYYY-MM-DD" class="form-control"/><br/>
-        <label><b>Carrera:</b></label>
+        <label><b>Carrera: </b></label>
         <input asp-for="Carr" class="form-control" required/><br/>
-        <label><b>Ciclo</b></label>
+        <label><b>Ciclo: </b></label>
         <input asp-for="Cic" class="form-control" required/><br/>
         
         <input type="submit" class="btn btn-info" value="Registrar" style="margin: auto; display: block; margin-bottom: 40px;"/>
         <input type="submit" class="btn btn-info" value="Volver" style="margin: auto; display: block; margin-bottom: 40px;" onclick="window.history.back();"/>
 
-        </select>
+   
 
         </form>
     </div>

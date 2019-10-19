@@ -125,3 +125,4 @@ C:\Users\Clase\Desktop\Convive\obj\Debug\netcoreapp2.1\Convivencia.Views.pdb
 C:\Users\Clase\Desktop\Convive\obj\Debug\netcoreapp2.1\Convivencia.dll
 C:\Users\Clase\Desktop\Convive\obj\Debug\netcoreapp2.1\Convivencia.pdb
 C:\Users\Clase\Desktop\Convive\obj\Debug\netcoreapp2.1\Convivencia.csproj.CopyComplete
+C:\Users\Clase\Desktop\Convive\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_registro.g.cshtml.cs

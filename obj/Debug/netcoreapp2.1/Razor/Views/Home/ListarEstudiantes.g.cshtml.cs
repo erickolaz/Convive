@@ -53,7 +53,7 @@ using Convivencia.Models;
             WriteLiteral("<!DOCTYPE html>\r\n<html lang=\"es\">\r\n");
             EndContext();
             BeginContext(67, 305, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "802a2d90c200486582db9b165b7dd132", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "16820ba3b8fa4ab280b169a1bab006b2", async() => {
                 BeginContext(73, 292, true);
                 WriteLiteral(@"
     <meta charset=""UTF-8"">
@@ -79,12 +79,12 @@ using Convivencia.Models;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(374, 2491, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "808e61223a364ebc8b3be2f64605f63d", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "bce8f384ff3a4d74bef504ef8a617bc2", async() => {
                 BeginContext(380, 108, true);
                 WriteLiteral("\r\n    <h1 style=\"color: lightblue; margin-top: 40px;\">Estudiantes Registrados</h1><br/>\r\n    <div>\r\n        ");
                 EndContext();
                 BeginContext(488, 86, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f86ddc772a4e43b4ae26f2c0039f7033", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b7395c0c828b4cc3bf9c27a67b36b154", async() => {
                     BeginContext(544, 26, true);
                     WriteLiteral("Registrar Nuevo Estudiante");
                     EndContext();
@@ -255,7 +255,7 @@ using Convivencia.Models;
                 WriteLiteral("\r\n                    </th>\r\n                        <td>\r\n                            [");
                 EndContext();
                 BeginContext(2636, 90, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "815de4511a6247e9911df7cf82f2c623", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "92d72e17ae2b46c1a267f600a6b604dc", async() => {
                     BeginContext(2714, 8, true);
                     WriteLiteral("Detalles");
                     EndContext();
